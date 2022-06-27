@@ -1,0 +1,11 @@
+bg-dark {
+  background-color: rgb(33, 37, 41);
+}
+.container {
+  padding-left:3rem;
+  padding-right: 3rem;
+}
+.py-9 {
+  padding-top: 6.5rem;
+  padding-bottom: 6.5rem;
+}
