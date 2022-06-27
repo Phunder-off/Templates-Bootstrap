@@ -1,1 +1,0 @@
-Lien original : https://startbootstrap.com/theme/grayscale
