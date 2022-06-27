@@ -5,6 +5,7 @@ body {
 }
 .bg-masthead {
     background-image: url(../img/bg-masthead.jpg);
+    height: 100vh;
 }
 .ls-1 {
   letter-spacing: 0.5rem;
