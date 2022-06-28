@@ -5,6 +5,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="../ressources/css/bootstrap.css" />
+		<link rel="stylesheet" href="../ressources/css/bootstrap-icons.css" />
+		<link rel="stylesheet" href="css/styles.css" />
 		<title>Document</title>
 	</head>
 	<body>
@@ -22,21 +24,187 @@
 							<li class="nav-item"><a class="nav-link me-2">About</a></li>
 
 							<li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Dropdown
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                  <li><a class="dropdown-item" href="#">Action</a></li>
-                                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                                  <li><hr class="dropdown-divider"></li>
-                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                              </li>
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Shop </a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="#">All Products</a></li>
+									<li><hr class="dropdown-divider" /></li>
+									<li><a class="dropdown-item" href="#">Popular Items</a></li>
+									<li><a class="dropdown-item" href="#">New Arrivals</a></li>
+								</ul>
+							</li>
 						</ul>
+						<button type="button" class="btn btn-outline-dark ms-auto">
+							<i class="bi bi-cart-fill"></i>
+							Card
+							<span class="badge rounded-pill text-bg-dark ms-1">0</span>
+						</button>
 					</div>
 				</div>
 			</nav>
 		</header>
+
+		<main>
+			<section class="bg-dark py-6">
+				<div class="container">
+					<div class="row justify-content-center text-center">
+						<div class="col-8">
+							<h1 class="text-light display-4 fw-bold">Shop in style</h1>
+						</div>
+						<div class="col-8">
+							<p class="text-white-50 fs-5">With this shop hompeage template</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="py-6">
+				<div class="container">
+					<div class="row g-5">
+						<div class="col-6 col-sm-4 col-xl-3">
+							<div class="card h-100">
+								<img src="img/450x300.jpg" class="card-img-top" />
+								<div class="card-body text-center">
+									<h5 class="card-title fw-bold">Fancy Product</h5>
+									<p class="card-text">$40.00 - $80.00</p>
+								</div>
+								<div class="card-footer text-center border-top-0 bg-white mb-3">
+									<a href="#" class="btn btn-outline-dark">View options</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-6 col-sm-4 col-xl-3">
+							<div class="card h-100">
+								<img src="img/450x300.jpg" class="card-img-top" />
+								<span class="badge text-bg-dark position-absolute sale">Sale</span>
+								<div class="card-body text-center">
+									<h5 class="card-title fw-bold">Special Item</h5>
+									<div class="d-flex small justify-content-center text-warning">
+										<div class="bi bi-star-fill"></div>
+										<div class="bi bi-star-fill"></div>
+										<div class="bi bi-star-fill"></div>
+										<div class="bi bi-star-fill"></div>
+										<div class="bi bi-star-fill"></div>
+									</div>
+									<p class="card-text"><span class="text-decoration-line-through text-muted">$20.00</span> $18.00</p>
+								</div>
+								<div class="card-footer text-center border-top-0 bg-white mb-3">
+									<a href="#" class="btn btn-outline-dark">Add to cart</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-6 col-sm-4 col-xl-3">
+							<div class="card h-100">
+								<img src="img/450x300.jpg" class="card-img-top" />
+								<span class="badge text-bg-dark position-absolute sale">Sale</span>
+
+								<div class="card-body text-center">
+									<h5 class="card-title fw-bold">Sale Item</h5>
+									<p class="card-text"><span class="text-decoration-line-through text-muted">$50.00</span> $25.00</p>
+								</div>
+								<div class="card-footer text-center border-top-0 bg-white mb-3">
+									<a href="#" class="btn btn-outline-dark">Add to cart</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-6 col-sm-4 col-xl-3">
+							<div class="card h-100">
+								<img src="img/450x300.jpg" class="card-img-top" />
+								<div class="card-body text-center">
+									<h5 class="card-title fw-bold">Popular Item</h5>
+									<div class="d-flex small justify-content-center text-warning">
+										<div class="bi bi-star-fill"></div>
+										<div class="bi bi-star-fill"></div>
+										<div class="bi bi-star-fill"></div>
+										<div class="bi bi-star-fill"></div>
+										<div class="bi bi-star-fill"></div>
+									</div>
+									<p class="card-text">$40.00</p>
+								</div>
+								<div class="card-footer text-center border-top-0 bg-white mb-3">
+									<a href="#" class="btn btn-outline-dark">Add to cart</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-6 col-sm-4 col-xl-3">
+							<div class="card h-100">
+								<img src="img/450x300.jpg" class="card-img-top" />
+								<span class="badge text-bg-dark position-absolute sale">Sale</span>
+
+								<div class="card-body text-center">
+									<h5 class="card-title fw-bold">Sale Item</h5>
+									<p class="card-text"><span class="text-decoration-line-through text-muted">$50.00</span> $25.00</p>
+								</div>
+								<div class="card-footer text-center border-top-0 bg-white mb-3">
+									<a href="#" class="btn btn-outline-dark">Add to cart</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-6 col-sm-4 col-xl-3">
+							<div class="card h-100">
+								<img src="img/450x300.jpg" class="card-img-top" />
+								<div class="card-body text-center">
+									<h5 class="card-title fw-bold">Fancy Product</h5>
+									<p class="card-text">$120.00 - $280.00</p>
+								</div>
+								<div class="card-footer text-center border-top-0 bg-white mb-3">
+									<a href="#" class="btn btn-outline-dark">View options</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-6 col-sm-4 col-xl-3">
+							<div class="card h-100">
+								<img src="img/450x300.jpg" class="card-img-top" />
+								<span class="badge text-bg-dark position-absolute sale">Sale</span>
+								<div class="card-body text-center">
+									<h5 class="card-title fw-bold">Special Item</h5>
+									<div class="d-flex small justify-content-center text-warning">
+										<div class="bi bi-star-fill"></div>
+										<div class="bi bi-star-fill"></div>
+										<div class="bi bi-star-fill"></div>
+										<div class="bi bi-star-fill"></div>
+										<div class="bi bi-star-fill"></div>
+									</div>
+									<p class="card-text"><span class="text-decoration-line-through text-muted">$20.00</span> $18.00</p>
+								</div>
+								<div class="card-footer text-center border-top-0 bg-white mb-3">
+									<a href="#" class="btn btn-outline-dark">Add to cart</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-6 col-sm-4 col-xl-3">
+							<div class="card h-100">
+								<img src="img/450x300.jpg" class="card-img-top" />
+								<div class="card-body text-center">
+									<h5 class="card-title fw-bold">Popular Item</h5>
+									<div class="d-flex small justify-content-center text-warning">
+										<div class="bi bi-star-fill"></div>
+										<div class="bi bi-star-fill"></div>
+										<div class="bi bi-star-fill"></div>
+										<div class="bi bi-star-fill"></div>
+										<div class="bi bi-star-fill"></div>
+									</div>
+									<p class="card-text">$40.00</p>
+								</div>
+								<div class="card-footer text-center border-top-0 bg-white mb-3">
+									<a href="#" class="btn btn-outline-dark">Add to cart</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="bg-dark py-5">
+				<p class="text-light text-center m-0">Copyright © Your Website 2022</p>
+			</section>
+		</main>
 		<script src="../ressources/js/bootstrap.bundle.min.js"></script>
 	</body>
 </html>
