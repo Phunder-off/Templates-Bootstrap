@@ -1,0 +1,11 @@
+.masthead{
+    background: url(../img/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.py-section{
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important; 
+};
